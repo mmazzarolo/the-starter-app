@@ -11,7 +11,7 @@ I wanted this tutorial to be focused on writing the code, so the project setup w
 Create React Native App allows us to build a React Native app without any build configuration.  
 To hide the build configuration from the developer, [Create React Native App uses Expo] under the hood.  
 That said, we are not planning to use many Expo component or API, so feel free to use the standard `react-native init` to kickstart the project.  
-If you haven't already, you can install Create React Native App running:
+If you haven't installed Create React Native App already, you can do it by running:
 
 ```bash
 # Using npm
