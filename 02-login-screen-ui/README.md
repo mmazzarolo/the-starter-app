@@ -188,5 +188,5 @@ export default LoginScreen;
 ```
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-app-starter/blob/master/.github/02-login-form.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-app-starter/blob/master/public/02-login-ui.png?raw=true" height="520"></img>
 </p>
