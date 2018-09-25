@@ -4,8 +4,8 @@
 
 # Part 2: Login screen UI
 
-Since in the previous chapter we completed the setup of the development environment we can finally focus on coding our app.  
-In this chapter we'll create the UI of the login form for both Android and iOS, starting from the following mockup:
+In the previous chapter we completed the setup of the development environment and we can finally focus on coding our app.  
+In this chapter we'll create the UI of the login screen, starting from the following mockup:
 
 <p align="center">
 <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/02-mockup.png?raw=true" height="520"></img>
@@ -13,14 +13,14 @@ In this chapter we'll create the UI of the login form for both Android and iOS, 
 
 ## The Button component
 
-The button component is often the first component that is built in a new React-Native project.  
-I'm not aiming at doing anything fancy here, so let's start with a simple button that accepts just a `label` and an `onPress` prop.
+The button component is quite often the first component built in a new React-Native project.  
+We're not aiming at doing anything fancy here, so let's start with a simple button that accepts just a `label` and an `onPress` prop.
 
 > **src/components/Button.tsx**
 
 ```javascript
 import * as React from "react";
-import { TouchableOpacity, StyleSheet, Text } from "react-native";
+import { StyleSheet, Text, TouchableOpacity } from "react-native";
 import colors from "../config/colors";
 
 interface Props {
@@ -41,19 +41,20 @@ class Button extends React.Component<Props> {
 
 const styles = StyleSheet.create({
   container: {
+    width: "100%",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: colors.MARINER,
-    paddingVertical: 16,
-    width: "100%",
+    backgroundColor: colors.DODGER_BLUE,
+    marginBottom: 12,
+    paddingVertical: 12,
     borderRadius: 4,
     borderWidth: StyleSheet.hairlineWidth,
-    borderColor: "rgba(255,255,255,0.7)",
-    marginBottom: 12
+    borderColor: "rgba(255,255,255,0.7)"
   },
   text: {
     color: colors.WHITE,
-    textAlign: "center"
+    textAlign: "center",
+    height: 20
   }
 });
 
@@ -62,32 +63,34 @@ export default Button;
 
 ## The FormTextInput component
 
-The next component we'll build is our own custom version of the TextInput.  
-Again, let's start simple:
+Instead of using the raw [React Native TextInput] we'll wrap it in our own component.
+
+Creating your own version custom version of the component offered by React Native is more often than not a good practice because it leads to an improved UI consistency and simplifies future refactorings.
 
 > **src/components/FormTextInput.tsx**
 
 ```javascript
 import * as React from "react";
-import { TextInput, StyleSheet } from "react-native";
+import { StyleSheet, TextInput, TextInputProps } from "react-native";
 import colors from "../config/colors";
 
-interface Props {
-  onChangeText: (value: string) => void;
-  value: string | undefined;
-  placeholder: string;
-}
+// We support all the TextInput props
+type Props = TextInputProps;
 
 class FormTextInput extends React.Component<Props> {
   render() {
-    const { onChangeText, value, placeholder } = this.props;
+    // We define our own custom style for the TextInput, but we still want to
+    // allow the developer to also supply its own additional style if needed.
+    // To do so, we extract the "style" prop from all the other props to prevent
+    // it to override our own custom style.
+    const { style, ...otherProps } = this.props;
     return (
-      <RNTextInput
-        onChangeText={onChangeText}
-        value={value}
-        placeholder={placeholder}
-        style={styles.textInput}
-        selectionColor={colors.MARINER}
+      <TextInput
+        selectionColor={colors.DODGER_BLUE}
+        // Add the externally specified style to our own custom style
+        style={[styles.textInput, style]}
+        // ...and then spread all the other props
+        {...otherProps}
       />
     );
   }
@@ -96,7 +99,7 @@ class FormTextInput extends React.Component<Props> {
 const styles = StyleSheet.create({
   textInput: {
     height: 40,
-    borderColor: colors.FRENCH_GRAY,
+    borderColor: colors.SILVER,
     borderBottomWidth: StyleSheet.hairlineWidth,
     marginBottom: 20
   }
@@ -107,17 +110,18 @@ export default FormTextInput;
 
 ## The login form UI
 
-Now that all our needed components are ready, we can use them to compose our login form.
+Now that all our presentational components are ready we can use them to compose our login screen.
 
 > **src/screens/LoginScreen.tsx**
 
 ```javascript
 import * as React from "react";
-import { Image, StyleSheet, Text, View, StatusBar } from "react-native";
+import { Image, StyleSheet, View } from "react-native";
 import Button from "../components/Button";
 import FormTextInput from "../components/FormTextInput";
-import colors from "../config/colors";
 import imageLogo from "../assets/images/logo.png";
+import colors from "../config/colors";
+import strings from "../config/strings";
 
 interface State {
   email: string;
@@ -125,7 +129,7 @@ interface State {
 }
 
 class LoginScreen extends React.Component<{}, State> {
-  state = {
+  readonly state: State = {
     email: "",
     password: ""
   };
@@ -150,14 +154,14 @@ class LoginScreen extends React.Component<{}, State> {
           <FormTextInput
             value={this.state.email}
             onChangeText={this.handleEmailChange}
-            placeholder="Email"
+            placeholder={strings.EMAIL_PLACEHOLDER}
           />
           <FormTextInput
             value={this.state.password}
             onChangeText={this.handlePasswordChange}
-            placeholder="Password"
+            placeholder={strings.PASSWORD_PLACEHOLDER}
           />
-          <Button label="Log In" onPress={this.handleLoginPress} />
+          <Button label={strings.LOGIN} onPress={this.handleLoginPress} />
         </View>
       </View>
     );
@@ -173,7 +177,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     flex: 1,
-    width: "90%",
+    width: "100%",
     resizeMode: "contain",
     alignSelf: "center"
   },
@@ -190,3 +194,5 @@ export default LoginScreen;
 <p align="center">
 <img src="https://github.com/mmazzarolo/the-app-starter/blob/master/public/02-login-ui.png?raw=true" height="520"></img>
 </p>
+
+[react native textinput]: https://facebook.github.io/react-native/docs/textinput
