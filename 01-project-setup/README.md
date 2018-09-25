@@ -4,7 +4,7 @@
 
 # Part 1: Project setup
 
-The entire focus of the tutorial will be on writing the code, so the project setup will be quick, a bit opinionanted and (hopefully) painless: we're going to use [Create React Native App] and [TypeScript].
+I wanted this tutorial to be focused on writing the code, so the project setup will be quick, a bit opinionanted and (hopefully) painless: we're going to use [Create React Native App] and [TypeScript].
 
 ### Create React Native App
 
