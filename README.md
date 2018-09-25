@@ -8,6 +8,8 @@ We'll build an iOS and Android app, step by step, tackling the most common React
 
 I'm planning to periodically update the tutorial but I haven't defined the release cycle yet. Stay tuned!
 
+<br />
+
 <p align="center">
 <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/00-screenshot-1.png?raw=true" height="520"></img>
 <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/00-screenshot-2.png?raw=true" height="520"></img>
