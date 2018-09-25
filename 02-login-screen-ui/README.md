@@ -195,4 +195,8 @@ export default LoginScreen;
 <img src="https://github.com/mmazzarolo/the-app-starter/blob/master/public/02-login-ui.png?raw=true" height="520"></img>
 </p>
 
+Neat!
+
+That's all for this chapter. In the next one we'll improve the keyboard support of our login form ⌨️!
+
 [react native textinput]: https://facebook.github.io/react-native/docs/textinput
