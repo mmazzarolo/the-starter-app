@@ -1,4 +1,8 @@
-# Part 1: Project setup <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo.png?raw=true" width="110" align="left" />
+<p align="center">
+<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="320"></img>
+</p>
+
+# Part 1: Project setup
 
 The entire focus of the tutorial will be on writing the code, so the project setup will be quick, a bit opinionanted and (hopefully) painless: we're going to use [Create React Native App] and [TypeScript].
 

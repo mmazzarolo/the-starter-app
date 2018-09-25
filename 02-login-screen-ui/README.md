@@ -1,4 +1,8 @@
-# Part 2: Login screen UI <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo.png?raw=true" width="110" align="left" />
+<p align="center">
+<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="320"></img>
+</p>
+
+# Part 2: Login screen UI
 
 Since in the previous chapter we completed the setup of the development environment we can finally focus on coding our app.  
 In this chapter we'll create the UI of the login form for both Android and iOS, starting from the following mockup:
@@ -12,8 +16,9 @@ In this chapter we'll create the UI of the login form for both Android and iOS, 
 The button component is often the first component that is built in a new React-Native project.  
 I'm not aiming at doing anything fancy here, so let's start with a simple button that accepts just a `label` and an `onPress` prop.
 
+> **src/components/Button.tsx**
+
 ```javascript
-// src/components/Button.tsx
 import * as React from "react";
 import { TouchableOpacity, StyleSheet, Text } from "react-native";
 import colors from "../config/colors";
@@ -60,8 +65,9 @@ export default Button;
 The next component we'll build is our own custom version of the TextInput.  
 Again, let's start simple:
 
+> **src/components/FormTextInput.tsx**
+
 ```javascript
-// src/components/FormTextInput.tsx
 import * as React from "react";
 import { TextInput, StyleSheet } from "react-native";
 import colors from "../config/colors";
@@ -103,8 +109,9 @@ export default FormTextInput;
 
 Now that all our needed components are ready, we can use them to compose our login form.
 
+> **src/screens/LoginScreen.tsx**
+
 ```javascript
-// src/screens/LoginScreen.tsx
 import * as React from "react";
 import { Image, StyleSheet, Text, View, StatusBar } from "react-native";
 import Button from "../components/Button";
@@ -183,5 +190,3 @@ export default LoginScreen;
 <p align="center">
 <img src="https://github.com/mmazzarolo/the-app-starter/blob/master/.github/02-login-form.png?raw=true" height="520"></img>
 </p>
-
-It doesn't look that bad right?
