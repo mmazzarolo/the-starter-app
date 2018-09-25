@@ -4,7 +4,7 @@
 
 # Part 2: Login screen UI
 
-In the previous chapter we completed the setup of the development environment and we can finally focus on coding our app.  
+In the previous chapter we completed the setup of the development environment so we can finally focus on coding our app.  
 In this chapter we'll create the UI of the login screen, starting from the following mockup:
 
 <p align="center">
