@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="420"></img>
 </p>
 
 An in-depth tutorial about building mobile apps using React-Native.

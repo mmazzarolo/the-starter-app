@@ -1,6 +1,4 @@
-# The Starter App - Part 1: Project setup
-
-## Introduction: A few words about the stack
+# Part 1: Project setup <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo.png?raw=true" width="110" align="left" />
 
 The entire focus of the tutorial will be on writing the code, so the project setup will be quick, a bit opinionanted and (hopefully) painless: we're going to use [Create React Native App] and [TypeScript].
 
