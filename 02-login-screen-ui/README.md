@@ -65,7 +65,7 @@ export default Button;
 
 Instead of using the raw [React Native TextInput] we'll wrap it in our own component.
 
-Creating your own version custom version of the component offered by React Native is more often than not a good practice because it leads to an improved UI consistency and simplifies future refactorings.
+Creating your own custom version of the components offered by React Native is more often than not a good practice because it leads to an improved UI consistency and simplifies future refactorings.
 
 > **src/components/FormTextInput.tsx**
 
