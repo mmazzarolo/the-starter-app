@@ -19,4 +19,4 @@ I'm planning to periodically update the tutorial but I haven't defined the relea
 # The tutorial
 
 - [Part 1: Project setup](./01-project-setup)
-- [Part 2: Login screen UI](./01-login-screen-ui)
+- [Part 2: Login screen UI](./02-login-screen-ui)
