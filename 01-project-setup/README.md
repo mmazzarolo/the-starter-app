@@ -4,7 +4,7 @@
 
 # Part 1: Project setup
 
-The project setup will be quick, a bit opinionanted and, hopefully, painless: we're going to use [Create React Native App] and [TypeScript].
+The project setup will be quick, a bit opinionated and, hopefully, painless: we're going to use [Create React Native App] and [TypeScript].
 
 ### Create React Native App
 
@@ -23,7 +23,7 @@ yarn add -g create-react-native-app
 ### TypeScript
 
 I'm a firm believer that adding static typing to an application makes it much more maintainable.  
-I choosed TypeScript over FlowType manly because I think it offers a much better developer experience to the user.  
+I chose TypeScript over FlowType manly because I think it offers a much better developer experience to the user.  
 Again, we're not going to focus too much on it, so, if you feel more comfortable with FlowType, go for it!
 
 > If you're not planning to statically type your app at all, please be aware that [PropTypes in the future won't be supported anymore out of the box by React Native].
@@ -38,7 +38,7 @@ Here is the directory structure we're going to use in the tutorial:
 
 - **assets**: Images, fonts, etc...
 - **components**: Presentational/reusable components
-- **config**: Configuration of the app (contants, metrics, colors)
+- **config**: Configuration of the app (constants, metrics, colors)
 - **mocks**: Mocks/stubs/fixtures: placeholder data to speed-up the development
 - **context**: Yes, we are going to use the [React Context] (just a bit)
 - **navigation**: [React Navigation] settings and navigators
@@ -63,7 +63,7 @@ Let's kickstart the project by running the following command in your workspace d
 create-react-native-app the-starter-app --scripts-version=react-native-scripts-ts
 ```
 
-The command above creates an app using Create React Native App and runs a script ([react-native-scripts-ts] that handles the entire TypeScript setup.
+The command above creates an app using Create React Native App and runs a script ([react-native-scripts-ts]) that handles the entire TypeScript setup.
 
 > If you're using `react-native init` instead of `create-react-native-app` you'll have to [manually add TypeScript to the setup]
 
