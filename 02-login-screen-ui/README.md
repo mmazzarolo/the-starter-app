@@ -4,7 +4,7 @@
 
 # Part 2: Login screen UI
 
-In the previous chapter we completed the setup of the development environment and we can finally focus on coding our app.  
+In the previous chapter we completed the setup of the development environment so we can finally focus on coding our app.  
 In this chapter we'll create the UI of the login screen, starting from the following mockup:
 
 <p align="center">
@@ -65,7 +65,7 @@ export default Button;
 
 Instead of using the raw [React Native TextInput] we'll wrap it in our own component.
 
-Creating your own version custom version of the component offered by React Native is more often than not a good practice because it leads to an improved UI consistency and simplifies future refactorings.
+Creating your own custom version of the components offered by React Native is more often than not a good practice because it leads to an improved UI consistency and simplifies future refactorings.
 
 > **src/components/FormTextInput.tsx**
 
