@@ -4,9 +4,8 @@
 
 An in-depth tutorial about building mobile apps using React-Native.
 
-We'll build together an iOS and Android app, step by step, learning learn how to deal with the most common pitfalls of React Native mobile app development.  
-The tutorial will lean towards showing the technical side of the development process by focusing primarly on writing code and adopting good coding practices.
-We won't delve deeply in explaining how the technology stack works, so a basic React/React-Native knowledge is required if you want fully understand the entire process.
+We'll build together an iOS and Android app, step by step, learning how to deal with the most common pitfalls of React Native mobile app development.
+The tutorial will lean towards showing the technical side of the development process by focusing primarily on writing code and adopting good coding practices. We won't delve deeply in explaining how the technology stack works, so a basic React/React-Native knowledge is required if you want to fully understand the entire process.
 
 By the end of the tutorial we'll have a fully working mobile app that can also be used as a boilerplate for future projects.
 
