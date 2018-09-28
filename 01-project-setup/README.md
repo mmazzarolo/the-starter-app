@@ -4,7 +4,7 @@
 
 # Part 1: Project setup
 
-I wanted this tutorial to be focused on writing the code, so the project setup will be quick, a bit opinionanted and (hopefully) painless: we're going to use [Create React Native App] and [TypeScript].
+The project setup will be quick, a bit opinionanted and, hopefully, painless: we're going to use [Create React Native App] and [TypeScript].
 
 ### Create React Native App
 
@@ -218,6 +218,8 @@ In the login screen of the app we'll show the app logo, so let's place [this ima
 ## That's it
 
 We completed the project setup and we're now finally ready to start coding 🎉!
+
+[Part 2: Login screen UI](./02-login-screen-ui)
 
 [create react native app]: https://github.com/react-community/create-react-native-app
 [typescript]: https://www.typescriptlang.org/
