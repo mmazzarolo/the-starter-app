@@ -21,10 +21,19 @@ I'm planning to periodically submit a new update but I haven't defined the relea
 
 # The tutorial
 
-- [Part 1: Project setup](./01-project-setup)
-- [Part 2: Login screen UI](./02-login-screen-ui)
+This tutorial is available on [GitHub] (where you can also find the source code), [Medium] and on my [personal website].
+
+- [Part 1: Project setup]
+- [Part 2: Login screen UI]
 
 # Acknowledgements
 
 I created this project because I wanted to share a few tricks I learned while working with React-Native in the past few years.  
 That said though, we all know that we can never stop learning, so feel free to point out mistakes and/or submit a feedback. Thank you!
+
+[github]: https://github.com/mmazzarolo/the-starter-app
+[medium]: asdf
+[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
+[carbon.now]: https://carbon.now.sh
+[part 1: project setup]: https://github.com/mmazzarolo/the-starter-app/01-project-setup
+[part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/02-login-screen-ui

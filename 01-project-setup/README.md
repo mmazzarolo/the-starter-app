@@ -2,6 +2,8 @@
 <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="320"></img>
 </p>
 
+> This tutorial is available on [GitHub] (where you'll also find the source code), [Medium] and on my [personal website].
+
 # Part 1: Project setup
 
 The project setup will be quick, a bit opinionated and, hopefully, painless: we're going to use [Create React Native App] and [TypeScript].
@@ -89,7 +91,7 @@ To better structure our code, we will move all the JavaScript in a `src` folder 
 
 Let's create our first screen:
 
-> **App.tsx**
+> **src/screens/LoginScreen.tsx**
 
 ```javascript
 import * as React from "react";
@@ -219,8 +221,12 @@ In the login screen of the app we'll show the app logo, so let's place [this ima
 
 We completed the project setup and we're now finally ready to start coding 🎉!
 
-[Part 2: Login screen UI](./02-login-screen-ui)
+[Part 2: Login screen UI]
 
+[github]: https://github.com/mmazzarolo/the-starter-app
+[medium]: asdf
+[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-project-setup/
+[part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/02-login-screen-ui
 [create react native app]: https://github.com/react-community/create-react-native-app
 [typescript]: https://www.typescriptlang.org/
 [create react native app uses expo]: https://docs.expo.io/versions/latest/workflow/create-react-native-app

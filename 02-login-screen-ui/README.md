@@ -2,6 +2,8 @@
 <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="320"></img>
 </p>
 
+> This tutorial is available on [GitHub] (where you'll also find the source code), [Medium] and on my [personal website].
+
 # Part 2: Login screen UI
 
 In the previous chapter we completed the setup of the development environment so we can finally focus on coding our app.  
@@ -197,6 +199,11 @@ export default LoginScreen;
 
 Neat!
 
+## That's it
+
 That's all for this chapter. In the next one we'll improve the keyboard support of our login form ⌨️!
 
+[github]: https://github.com/mmazzarolo/the-starter-app
+[medium]: asdf
+[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-login-screen-ui/
 [react native textinput]: https://facebook.github.io/react-native/docs/textinput
