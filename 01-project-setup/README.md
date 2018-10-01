@@ -2,7 +2,7 @@
 <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="320"></img>
 </p>
 
-> This tutorial is available on [GitHub] (where you'll also find the source code), [Medium] and on my [personal website].
+> This tutorial is also available on [Medium] and on [my personal website].
 
 # Part 1: Project setup
 
@@ -221,12 +221,11 @@ In the login screen of the app we'll show the app logo, so let's place [this ima
 
 We completed the project setup and we're now finally ready to start coding 🎉!
 
-[Part 2: Login screen UI]
+[Next - Part 2: Login screen UI]
 
-[github]: https://github.com/mmazzarolo/the-starter-app
-[medium]: asdf
+[medium]: https://medium.com/@mmazzarolo/the-starter-app-part-1-project-setup-9b1579a8efa9
 [personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-project-setup/
-[part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/02-login-screen-ui
+[next - part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/02-login-screen-ui
 [create react native app]: https://github.com/react-community/create-react-native-app
 [typescript]: https://www.typescriptlang.org/
 [create react native app uses expo]: https://docs.expo.io/versions/latest/workflow/create-react-native-app

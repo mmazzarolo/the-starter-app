@@ -2,7 +2,7 @@
 <img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="320"></img>
 </p>
 
-> This tutorial is available on [GitHub] (where you'll also find the source code), [Medium] and on my [personal website].
+> This tutorial is also available on [Medium] and on [my personal website].
 
 # Part 2: Login screen UI
 
@@ -22,7 +22,11 @@ We're not aiming at doing anything fancy here, so let's start with a simple butt
 
 ```javascript
 import * as React from "react";
-import { StyleSheet, Text, TouchableOpacity } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity
+} from "react-native";
 import colors from "../config/colors";
 
 interface Props {
@@ -34,7 +38,10 @@ class Button extends React.Component<Props> {
   render() {
     const { label, onPress } = this.props;
     return (
-      <TouchableOpacity style={styles.container} onPress={onPress}>
+      <TouchableOpacity
+        style={styles.container}
+        onPress={onPress}
+      >
         <Text style={styles.text}>{label}</Text>
       </TouchableOpacity>
     );
@@ -73,7 +80,11 @@ Creating your own custom version of the components offered by React Native is mo
 
 ```javascript
 import * as React from "react";
-import { StyleSheet, TextInput, TextInputProps } from "react-native";
+import {
+  StyleSheet,
+  TextInput,
+  TextInputProps
+} from "react-native";
 import colors from "../config/colors";
 
 // We support all the TextInput props
@@ -81,15 +92,18 @@ type Props = TextInputProps;
 
 class FormTextInput extends React.Component<Props> {
   render() {
-    // We define our own custom style for the TextInput, but we still want to
-    // allow the developer to also supply its own additional style if needed.
-    // To do so, we extract the "style" prop from all the other props to prevent
-    // it to override our own custom style.
+    // We define our own custom style for the TextInput, but
+    // we still want to allow the developer to supply its
+    // own additional style if needed.
+    // To do so, we extract the "style" prop from all the
+    // other props to prevent it to override our own custom
+    // style.
     const { style, ...otherProps } = this.props;
     return (
       <TextInput
         selectionColor={colors.DODGER_BLUE}
-        // Add the externally specified style to our own custom style
+        // Add the externally specified style to our own
+        // custom one
         style={[styles.textInput, style]}
         // ...and then spread all the other props
         {...otherProps}
@@ -163,7 +177,10 @@ class LoginScreen extends React.Component<{}, State> {
             onChangeText={this.handlePasswordChange}
             placeholder={strings.PASSWORD_PLACEHOLDER}
           />
-          <Button label={strings.LOGIN} onPress={this.handleLoginPress} />
+          <Button
+            label={strings.LOGIN}
+            onPress={this.handleLoginPress}
+          />
         </View>
       </View>
     );
@@ -203,7 +220,9 @@ Neat!
 
 That's all for this chapter. In the next one we'll improve the keyboard support of our login form ⌨️!
 
-[github]: https://github.com/mmazzarolo/the-starter-app
-[medium]: asdf
+[Next - Part 3: Keyboard improvements]
+
+[medium]: https://medium.com/@mmazzarolo/the-starter-app-part-2-login-screen-ui-2937e9a9083b
 [personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-login-screen-ui/
 [react native textinput]: https://facebook.github.io/react-native/docs/textinput
+[next - part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/03-keyboard-improvements

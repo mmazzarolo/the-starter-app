@@ -21,19 +21,30 @@ I'm planning to periodically submit a new update but I haven't defined the relea
 
 # The tutorial
 
-This tutorial is available on [GitHub] (where you can also find the source code), [Medium] and on my [personal website].
+This tutorial is available also available on [Medium] and on my [personal website].
 
 - [Part 1: Project setup]
 - [Part 2: Login screen UI]
+- [Part 3: Keyboard improvements]
 
 # Acknowledgements
 
 I created this project because I wanted to share a few tricks I learned while working with React-Native in the past few years.  
 That said though, we all know that we can never stop learning, so feel free to point out mistakes and/or submit a feedback. Thank you!
 
-[github]: https://github.com/mmazzarolo/the-starter-app
-[medium]: asdf
+Also thank you to:
+
+- The React and React-Native team and community for building such amazing libraries
+- Microsoft, for TypeScript and VSCode, two of the most valuable developer tools out there
+- [carbon.now] for the Medium images
+- Vadim Ponomaryov for the [friend profile screen inspiration]
+- [365randommuppets] for the amazing placeholders
+
+[medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
 [personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
 [carbon.now]: https://carbon.now.sh
 [part 1: project setup]: https://github.com/mmazzarolo/the-starter-app/01-project-setup
 [part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/02-login-screen-ui
+[part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/03-keyboard-improvements
+[365randommuppets:]: https://365randommuppets.wordpress.com/
+[friend profile scren inspiration]: https://dribbble.com/shots/3164077-Lanespotter-App-User-Profile
