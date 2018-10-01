@@ -46,5 +46,5 @@ Also thank you to:
 [part 1: project setup]: https://github.com/mmazzarolo/the-starter-app/01-project-setup
 [part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/02-login-screen-ui
 [part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/03-keyboard-improvements
-[365randommuppets:]: https://365randommuppets.wordpress.com/
+[365randommuppets]: https://365randommuppets.wordpress.com/
 [friend profile scren inspiration]: https://dribbble.com/shots/3164077-Lanespotter-App-User-Profile
