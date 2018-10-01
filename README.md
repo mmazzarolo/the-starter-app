@@ -43,8 +43,8 @@ Also thank you to:
 [medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
 [personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
 [carbon.now]: https://carbon.now.sh
-[part 1: project setup]: https://github.com/mmazzarolo/tree/master/the-starter-app/01-project-setup
-[part 2: login screen ui]: https://github.com/mmazzarolo/tree/master/the-starter-app/02-login-screen-ui
-[part 3: keyboard improvements]: https://github.com/mmazzarolo/tree/master/the-starter-app/03-keyboard-improvements
+[part 1: project setup]: https://github.com/mmazzarolo/the-starter-app/tree/master/01-project-setup
+[part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/tree/master/02-login-screen-ui
+[part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/tree/master/03-keyboard-improvements
 [365randommuppets]: https://365randommuppets.wordpress.com/
 [friend profile scren inspiration]: https://dribbble.com/shots/3164077-Lanespotter-App-User-Profile

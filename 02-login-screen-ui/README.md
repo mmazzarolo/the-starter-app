@@ -222,7 +222,7 @@ That's all for this chapter. In the next one we'll improve the keyboard support 
 
 [Next - Part 3: Keyboard improvements]
 
-[medium]: https://medium.com/@mmazzarolo/the-starter-app-part-2-login-screen-ui-2937e9a9083b
-[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-login-screen-ui/
+[medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
+[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
 [react native textinput]: https://facebook.github.io/react-native/docs/textinput
-[next - part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/03-keyboard-improvements
+[next - part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/tree/master/03-keyboard-improvements

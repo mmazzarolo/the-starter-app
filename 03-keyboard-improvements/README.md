@@ -265,8 +265,10 @@ export default LoginScreen;
 <img src="https://github.com/mmazzarolo/the-app-starter/blob/master/public/03-keyboard-focus.gif?raw=true" height="520"></img>
 </p>
 
-[medium]: https://medium.com/@mmazzarolo/the-starter-app-part-3-keyboard-improvements-e693ae720c62
-[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-keyboard-improvements/
+Next - part 4: form validation (WIP)
+
+[medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
+[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
 [keyboardavoidingview component]: https://facebook.github.io/react-native/docs/keyboardavoidingview
 [react native documentation]: https://facebook.github.io/react-native/docs/keyboardavoidingview
 [textinput's keyboardtype="email"]: https://facebook.github.io/react-native/docs/textinput#keyboardtype
@@ -275,4 +277,4 @@ export default LoginScreen;
 [textinput returnkeytype to "done"]: https://facebook.github.io/react-native/docs/textinput#returnkeytype
 [securetextentry"]: https://facebook.github.io/react-native/docs/textinput#securetextentry
 [onsubmitediting]: https://facebook.github.io/react-native/docs/textinput#onsubmitediting
-[next - part 4: form validation]: https://github.com/mmazzarolo/the-starter-app/04-form-validation
+[next - part 4: form validation]: https://github.com/mmazzarolo/the-starter-app/tree/master/04-form-validation
