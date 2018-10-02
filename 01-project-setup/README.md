@@ -224,7 +224,7 @@ We completed the project setup and we're now finally ready to start coding 🎉!
 [Next - Part 2: Login screen UI]
 
 [medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
-[personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
+[my personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
 [next - part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/tree/master/02-login-screen-ui
 [create react native app]: https://github.com/react-community/create-react-native-app
 [typescript]: https://www.typescriptlang.org/
