@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true""></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/logo-extra-wide.png?raw=true""></img>
 </p>
 
 > This tutorial is also available on [Medium] and on [my personal website].
@@ -35,7 +35,7 @@ Again, we're not going to focus too much on it, so, if you feel more comfortable
 Here is the directory structure we're going to use in the tutorial:
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/01-directory-structure.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/01-directory-structure.png?raw=true" height="520"></img>
 </p>
 
 - **assets**: Images, fonts, etc...
@@ -78,7 +78,7 @@ yarn run ios
 > If you used `react-native-init` you'll have to run the app using `react-native-run ios` instead.
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/01-empty-app.png?raw=true" height="620"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/01-empty-app.png?raw=true" height="620"></img>
 </p>
 
 ## Our first screen
@@ -134,7 +134,7 @@ export default LoginScreen;
 Run the app again and you should be able to see our login screen in all of its glory!
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/01-login-screen-intro.png?raw=true" height="620"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/01-login-screen-intro.png?raw=true" height="620"></img>
 </p>
 
 ## Config folder initialization
@@ -234,7 +234,7 @@ We completed the project setup and we're now finally ready to start coding 🎉!
 [manually add typescript to the setup]: https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native
 [react-native-config]: https://github.com/luggit/react-native-config
 [react-native-dotenv]: https://github.com/zetachang/react-native-dotenv
-[this image]: https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-wide.png?raw=true
+[this image]: https://github.com/mmazzarolo/the-starter-app/blob/master/.github/logo-wide.png?raw=true
 [proptypes in the future won't be supported anymore out of the box by react native]: https://github.com/react-native-community/discussions-and-proposals/issues/29
 [react context]: https://reactjs.org/docs/context.html
 [react navigation]: https://reactnavigation.org

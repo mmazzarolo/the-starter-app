@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/logo-extra-wide.png?raw=true"></img>
 </p>
 
 > This tutorial is also available on [Medium] and on [my personal website].

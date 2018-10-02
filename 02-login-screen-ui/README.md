@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/logo-extra-wide.png?raw=true"></img>
 </p>
 
 > This tutorial is also available on [Medium] and on [my personal website].
@@ -10,7 +10,7 @@ In the previous chapter we completed the setup of the development environment so
 In this chapter we'll create the UI of the login screen, starting from the following mockup:
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/02-mockup.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/02-mockup.png?raw=true" height="520"></img>
 </p>
 
 ## The Button component

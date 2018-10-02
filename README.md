@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/logo-extra-wide.png?raw=true"></img>
 </p>
 
 An in-depth tutorial about building mobile apps using React-Native.
@@ -14,9 +14,9 @@ I'm planning to periodically submit a new update but I haven't defined the relea
 <br />
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/00-screenshot-1.png?raw=true" height="520"></img>
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/00-screenshot-2.png?raw=true" height="520"></img>
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/00-screenshot-3.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/00-screenshot-1.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/00-screenshot-2.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/00-screenshot-3.png?raw=true" height="520"></img>
 </p>
 
 # The tutorial
