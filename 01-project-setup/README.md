@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" height="320"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app-dev/blob/master/public/logo-extra-wide.png?raw=true" style="max-height:320;"></img>
 </p>
 
 > This tutorial is also available on [Medium] and on [my personal website].

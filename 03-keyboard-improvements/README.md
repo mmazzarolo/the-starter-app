@@ -275,6 +275,6 @@ Next - part 4: form validation (WIP)
 [autocorrect={false}]: https://facebook.github.io/react-native/docs/textinput#autocorrect
 [returnkeytype prop]: https://facebook.github.io/react-native/docs/textinput#returnkeytype
 [textinput returnkeytype to "done"]: https://facebook.github.io/react-native/docs/textinput#returnkeytype
-[securetextentry"]: https://facebook.github.io/react-native/docs/textinput#securetextentry
+[textinput securetextentry prop to true]: https://facebook.github.io/react-native/docs/textinput#securetextentry
 [onsubmitediting]: https://facebook.github.io/react-native/docs/textinput#onsubmitediting
 [next - part 4: form validation]: https://github.com/mmazzarolo/the-starter-app/tree/master/04-form-validation
