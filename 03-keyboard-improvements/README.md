@@ -13,7 +13,7 @@ We just built a nice UI for our login screen, but if you run the app and tap on 
 The first glaring issue you'll see is that when you focus a TextInput the keyboard overlaps it.
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-app-starter/blob/master/public/03-keyboard-overlap.gif?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/public/03-keyboard-overlap.gif?raw=true" height="520"></img>
 </p>
 
 This is a common issue in React Native: handling the keyboard in some cases is really annoying, especially if you're planning to support both iOS and Android and/or you have a long form.
@@ -71,7 +71,7 @@ From the [React Native documentation]:
 The `behavior="padding"` prop of the KeyboardAvoidingView component replaces the empty space underneath the keyboard with a padding. This causes a nice animation of the logo size when you trigger the keyboard:
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-app-starter/blob/master/public/03-keyboard-overlap-fix.gif?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/public/03-keyboard-overlap-fix.gif?raw=true" height="520"></img>
 </p>
 
 The logo animates because we defined both the form and the logo as `flex: 1`, which means they'll try to grow as much as possible in the available space. Since opening a keyboard diminishes the available space on the screen, the logo will shrink.
@@ -263,7 +263,7 @@ export default LoginScreen;
 ```
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-app-starter/blob/master/public/03-keyboard-focus.gif?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/public/03-keyboard-focus.gif?raw=true" height="520"></img>
 </p>
 
 Next - part 4: form validation (WIP)
