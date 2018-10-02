@@ -81,20 +81,21 @@ The logo animates because we defined both the form and the logo as `flex: 1`, wh
 If you look closely at the gif above you'll notice that the keyboard submit button is labeled "return" and pressing it hides the keyboard.
 
 To improve the user experience, we will implement the following flow:
-**1. Tapping on the email input shows the keyboard**
+
+**1. Tapping on the email input shows the keyboard**  
 There are a few things we can improve here:
 
 - Set the right keyboard type. In this case we want the "e-mail" type, which simplifies entering email addresses showing a prominent "@" key. The [TextInput's keyboardType="email"] will take care of this.
 - Being an email address we may want to disable the autocorrection by setting [autoCorrect={false}].
 - Rename the submit button label to a more descriptive "next" using the [returnKeyType prop].
 
-**2. Pressing the on the keyboard submit button will focus the next field (in this case the password one)**
-Here comes the fun part: when the submit button of the email FormTextInput is pressed (we can use [the TextInput onSubmitEditing prop] to detect it) we must focus the password FormTextInput.  
+**2. Pressing the on the keyboard submit button will focus the next field (in this case the password one)**  
+Here comes the fun part: when the submit button of the email FormTextInput is pressed (we can use the [TextInput onSubmitEditing prop] to detect it) we must focus the password FormTextInput.  
 It sounds straightforward, but since we're using the custom FormTextInput component we don't have a way to programmatically focus the input... yet.
 To do so, we will store a reference of the TextInput component inside the FormTextInput and expose a function that will call the TextInput's focus method when invoked.
 If it's still not clear to you don't worry, I added a few comment in the code that hopefully will make it clearer.
 
-**3. And now, since the focused field is the last one in the form, pressing the submit button will hide the keyboard**
+**3. And now, since the focused field is the last one in the form, pressing the submit button will hide the keyboard**  
 Again, we can improve the keyboard password input in a few ways:
 
 - Setting the [TextInput secureTextEntry prop to true] will mask the password input characters
@@ -276,5 +277,5 @@ Next - part 4: form validation (WIP)
 [returnkeytype prop]: https://facebook.github.io/react-native/docs/textinput#returnkeytype
 [textinput returnkeytype to "done"]: https://facebook.github.io/react-native/docs/textinput#returnkeytype
 [textinput securetextentry prop to true]: https://facebook.github.io/react-native/docs/textinput#securetextentry
-[onsubmitediting]: https://facebook.github.io/react-native/docs/textinput#onsubmitediting
+[textinput onsubmitediting prop]: https://facebook.github.io/react-native/docs/textinput#onsubmitediting
 [next - part 4: form validation]: https://github.com/mmazzarolo/the-starter-app/tree/master/04-form-validation
