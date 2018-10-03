@@ -22,11 +22,7 @@ We're not aiming at doing anything fancy here, so let's start with a simple butt
 
 ```javascript
 import * as React from "react";
-import {
-  StyleSheet,
-  Text,
-  TouchableOpacity
-} from "react-native";
+import { StyleSheet, Text, TouchableOpacity } from "react-native";
 import colors from "../config/colors";
 
 interface Props {
@@ -38,10 +34,7 @@ class Button extends React.Component<Props> {
   render() {
     const { label, onPress } = this.props;
     return (
-      <TouchableOpacity
-        style={styles.container}
-        onPress={onPress}
-      >
+      <TouchableOpacity style={styles.container} onPress={onPress}>
         <Text style={styles.text}>{label}</Text>
       </TouchableOpacity>
     );
@@ -80,11 +73,7 @@ Creating your own custom version of the components offered by React Native is mo
 
 ```javascript
 import * as React from "react";
-import {
-  StyleSheet,
-  TextInput,
-  TextInputProps
-} from "react-native";
+import { StyleSheet, TextInput, TextInputProps } from "react-native";
 import colors from "../config/colors";
 
 // We support all the TextInput props
@@ -223,6 +212,6 @@ That's all for this chapter. In the next one we'll improve the keyboard support 
 [Next - Part 3: Keyboard improvements]
 
 [medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
-[my personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
+[my personal website]: https://mmazzarolo.com/blog/2018-09-27-the-starter-app-intro/
 [react native textinput]: https://facebook.github.io/react-native/docs/textinput
 [next - part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/tree/master/03-keyboard-improvements
