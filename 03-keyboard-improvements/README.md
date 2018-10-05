@@ -266,7 +266,7 @@ export default LoginScreen;
 <img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/03-keyboard-focus.gif?raw=true" height="520"></img>
 </p>
 
-Next - part 4: form validation (WIP)
+[Next - part 4: form validation]
 
 [medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
 [my personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
