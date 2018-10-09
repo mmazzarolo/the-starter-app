@@ -89,7 +89,7 @@ There are a few things we can improve here:
 - Being an email address we may want to disable the autocorrection by setting [autoCorrect={false}].
 - Rename the submit button label to a more descriptive "next" using the [returnKeyType prop].
 
-**2. Pressing the on the keyboard submit button will focus the next field (in this case the password one)**  
+**2. Pressing the keyboard submit button will focus the next field (in this case the password one)**  
 Here comes the fun part: when the submit button of the email FormTextInput is pressed (we can use the [TextInput onSubmitEditing prop] to detect it) we must focus the password FormTextInput.  
 It sounds straightforward, but since we're using the custom FormTextInput component we don't have a way to programmatically focus the input... yet.
 To do so, we will store a reference of the TextInput component inside the FormTextInput and expose a function that will call the TextInput's focus method when invoked.

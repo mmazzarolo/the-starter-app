@@ -19,6 +19,8 @@ And, last but not least, we will disable the login button if the form is invalid
 
 Let's start!
 
+## Disabling the button
+
 > **src/components/Button.tsx**
 
 ```javascript
@@ -86,6 +88,8 @@ const styles = StyleSheet.create({
 export default Button;
 ```
 
+## Adding the error label to the inputs
+
 > **src/components/FormTextInput.tsx**
 
 ```javascript
@@ -151,6 +155,8 @@ const styles = StyleSheet.create({
 
 export default FormTextInput;
 ```
+
+## Tying everything together
 
 > **src/screens/LoginScreen.tsx**
 
@@ -293,6 +299,10 @@ const styles = StyleSheet.create({
 export default LoginScreen;
 ```
 
+<p align="center">
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/04-form-validation.gif?raw=true" height="520"></img>
+</p>
+
 Great, our login form is now validated and shows to the user a simple feedback about what he should do to make the form valid!
 
 If you want to add some kind of validation to longer forms (_please add a bit of validation to all your forms_) or if you need a complex or asynchronous validation logic I would suggest you to take a look at [formik].
@@ -304,4 +314,4 @@ And now, let's bring our login screen to Android as well!
 [medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
 [my personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
 [formik]: https://github.com/jaredpalmer/formik
-[next - part 5: login screen on android]: https://github.com/mmazzarolo/the-starter-app/tree/master/04-form-validation
+[next - part 5: login screen on android]: https://github.com/mmazzarolo/the-starter-app/tree/master/05-login-screen-on-android

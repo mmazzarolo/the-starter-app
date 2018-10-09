@@ -3,19 +3,19 @@ import {
   Image,
   KeyboardAvoidingView,
   StyleSheet,
-  View
+  View,
+  StatusBar
 } from "react-native";
 import Button from "../components/Button";
 import FormTextInput from "../components/FormTextInput";
 import imageLogo from "../assets/images/logo.png";
 import colors from "../config/colors";
 import strings from "../config/strings";
+import constants from "../config/constants";
 
 interface State {
   email: string;
   password: string;
-  // We add a field that tracks if the user has already
-  // touched the input...
   emailTouched: boolean;
   passwordTouched: boolean;
 }
@@ -44,7 +44,6 @@ class LoginScreen extends React.Component<{}, State> {
     }
   };
 
-  // ...and we update them in the input onBlur callback
   handleEmailBlur = () => {
     this.setState({ emailTouched: true });
   };
@@ -64,8 +63,6 @@ class LoginScreen extends React.Component<{}, State> {
       emailTouched,
       passwordTouched
     } = this.state;
-    // Show the validation errors only when the inputs
-    // are empty AND have been blurred at least once
     const emailError =
       !email && emailTouched
         ? strings.EMAIL_REQUIRED
@@ -77,8 +74,15 @@ class LoginScreen extends React.Component<{}, State> {
     return (
       <KeyboardAvoidingView
         style={styles.container}
-        behavior="padding"
+        // On Android the keyboard behavior is handled
+        // by Android itself, so we should disable it
+        // by passing `undefined`.
+        behavior={constants.IS_IOS ? "padding" : undefined}
       >
+        <StatusBar
+          barStyle="dark-content"
+          backgroundColor="#FFFFFF"
+        />
         <Image source={imageLogo} style={styles.logo} />
         <View style={styles.form}>
           <FormTextInput
@@ -89,9 +93,12 @@ class LoginScreen extends React.Component<{}, State> {
             autoCorrect={false}
             keyboardType="email-address"
             returnKeyType="next"
-            autoCapitalize={"none"}
             onBlur={this.handleEmailBlur}
             error={emailError}
+            // `blurOnSubmit` causes a keyboard glitch on
+            // Android when we want to manually focus the
+            // next input.
+            blurOnSubmit={constants.IS_IOS}
           />
           <FormTextInput
             ref={this.passwordInputRef}
