@@ -269,7 +269,7 @@ export default LoginScreen;
 [Next - part 4: form validation]
 
 [medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
-[my personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
+[my personal website]: https://mmazzarolo.com/blog/2018-09-27-the-starter-app-intro/
 [keyboardavoidingview component]: https://facebook.github.io/react-native/docs/keyboardavoidingview
 [react native documentation]: https://facebook.github.io/react-native/docs/keyboardavoidingview
 [textinput's keyboardtype="email"]: https://facebook.github.io/react-native/docs/textinput#keyboardtype
