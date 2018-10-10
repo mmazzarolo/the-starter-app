@@ -26,7 +26,7 @@ Let's start from the top.
 You can clearly see that the status bar style doesn't match the theme of the screen.
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/05-statusbar-gray.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/05-statusbar-gray.png?raw=true"></img>
 </p>
 
 Luckily for us, React Native provides the [StatusBar component] to customize the look of the status bar (on both Android and iOS).
@@ -43,7 +43,7 @@ For example, I would suggest adding the following StatusBar in the LoginScreen:
 It will sets the status bar background color to white and its text will be dark gray (the text color of the status bar is controlled by the `barStyle` prop).
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/05-statusbar-white.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/05-statusbar-white.png?raw=true"></img>
 </p>
 
 > The StatusBar doesn't work like a standard component: you can place it wherever you want in the hierarchy of your screen without having to worry about its layout position.
