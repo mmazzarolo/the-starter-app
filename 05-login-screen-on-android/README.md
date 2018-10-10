@@ -66,7 +66,7 @@ textInput: {
 The darker one shows up only on Android: it's a native underline that follows the Material Design guidelines.
 
 <p align="center">
-<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/05-input-underline.png?raw=true" height="520"></img>
+<img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/05-input-underline.png?raw=true" ></img>
 </p>
 
 I recently posted a short article that explains how we can fix the TextInput UI on Android; the plan is the following:
