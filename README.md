@@ -26,6 +26,8 @@ This tutorial is available also available on [Medium] and on my [personal websit
 - [Part 1: Project setup]
 - [Part 2: Login screen UI]
 - [Part 3: Keyboard improvements]
+- [Part 4: Form validation]
+- [Part 5: Login screen on Android]
 
 # Acknowledgements
 
@@ -46,5 +48,7 @@ Also thank you to:
 [part 1: project setup]: https://github.com/mmazzarolo/the-starter-app/tree/master/01-project-setup
 [part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/tree/master/02-login-screen-ui
 [part 3: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/tree/master/03-keyboard-improvements
+[part 4: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/tree/master/04-form-validation
+[part 5: keyboard improvements]: https://github.com/mmazzarolo/the-starter-app/tree/master/05-login-screen-on-android
 [365randommuppets]: https://365randommuppets.wordpress.com/
 [friend profile scren inspiration]: https://dribbble.com/shots/3164077-Lanespotter-App-User-Profile
