@@ -69,7 +69,7 @@ The darker one shows up only on Android: it's a native underline that follows th
 <img src="https://github.com/mmazzarolo/the-starter-app/blob/master/.github/05-input-underline.png?raw=true" ></img>
 </p>
 
-I recently posted a short article that explains how we can fix the TextInput UI on Android; the plan is the following:
+I recently posted [a short article that explains how we can fix the TextInput UI on Android]; the plan is the following:
 
 1. Hide the lighter underline on Android, we'll use it only on iOS
 2. Add a left padding to the TextInput on Android to fix the wrong placeholder alignment
@@ -290,3 +290,4 @@ In the next chapter we'll add some logic to the login process itself, stay tuned
 [my personal website]: https://mmazzarolo.com/blog/2018-09-28-the-starter-app-intro/
 [statusbar component]: https://facebook.github.io/react-native/docs/statusbar
 [the bluronsubmit prop]: https://facebook.github.io/react-native/docs/textinput#bluronsubmit
+[a short article that explains how we can fix the textinput ui on android]: https://medium.com/@mmazzarolo/styling-the-react-native-textinput-on-android-ed84aba6f7df
