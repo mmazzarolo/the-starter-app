@@ -119,10 +119,10 @@ class FormTextInput extends React.Component<Props> {
   render() {
     const { error, style, ...otherProps } = this.props;
     return (
-      // Since added a wrapper View, I suggest to make it
-      // the receiver of the he style prop.
-      // Aa a rule of thumb, we will always pass the style
-      // prop to the outmost wrapper of a component.
+      // Since we added a wrapper View, I would suggest
+      // making it the receiver of the `style` prop.
+      // As a rule of thumb we will always pass the `style`
+      // prop to the outmost wrapper of the component.
       <View style={[styles.container, style]}>
         <TextInput
           ref={this.textInputRef}

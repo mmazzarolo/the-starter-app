@@ -50,7 +50,7 @@ It will sets the status bar background color to white and its text will be dark 
 
 # The input fields
 
-Now that the status bar matches the screen color scheme we can focus on the in put fields, which now look... really bad.
+Now that the status bar matches the screen color scheme we can focus on the input fields, which now look... really bad.
 
 The most notable issue of the input fields is that they have two underlines.
 The lighter underline is the one we declared ourself in the `FormTextInput` by setting the input bottom border style:
