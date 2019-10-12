@@ -43,7 +43,7 @@ Also thank you to:
 - [365randommuppets] for the amazing placeholders
 
 [medium]: https://medium.com/@mmazzarolo/the-starter-app-introduction-3ead074cc589
-[personal website]: https://mmazzarolo.com/blog/2018-09-27-the-starter-app-intro/
+[personal website]: https://mmazzarolo.com/blog/2018-09-27-the-starter-app/
 [carbon.now]: https://carbon.now.sh
 [part 1: project setup]: https://github.com/mmazzarolo/the-starter-app/tree/master/01-project-setup
 [part 2: login screen ui]: https://github.com/mmazzarolo/the-starter-app/tree/master/02-login-screen-ui
