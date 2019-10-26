@@ -43,12 +43,12 @@ import {
       >
         <Image source={imageLogo} style={styles.logo} />
         <View style={styles.form}>
-          <TextInput
+          <FormTextInput
             value={this.state.email}
             onChangeText={this.handleEmailChange}
             placeholder="Email"
           />
-          <TextInput
+          <FormTextInput
             value={this.state.password}
             onChangeText={this.handlePasswordChange}
             placeholder="Password"
